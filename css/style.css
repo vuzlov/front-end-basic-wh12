@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: bold;
+	background: #F3F3F3;
+
+}
+
+.container {
+	max-width: 1230px;
+	min-width: 375px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.choose-us-box {
+	padding: 45px 59px;
+	text-align: center;
+}
+
+.box-title {
+	font-size: 36px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.box-text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #737373;
+	max-width: 511px;
+	margin: 0 auto;
+}
+
+.choose-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	padding-top: 15px;
+}
+
+.choose-list__parent {
+	padding: 15px 15px;
+	width: 100%;
+	display: block;
+}
+
+.choose-list__box {
+	background: #FFFFFF;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px 40px;
+	max-height: 209px;
+	min-width: 239px;
+    height: 100%;
+}
+
+.item-title {
+	padding: 10px;
+	font-size: 40px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+	margin-top: auto;
+}
+
+.item-description {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.1px;
+	color: #737373;
+	text-transform: uppercase;
+}
+.advice {
+	padding: 0 15px;
+}
+
+.practice-advice {
+	padding: 75px 60px;
+}
+
+.practice-advice__title {
+	font-size: 36px;
+	line-height: 57px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #252B42;
+	margin-bottom: 10px;
+}
+.practice-advice__description {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #737373;
+	max-width: 470px;
+	margin: 0 auto;
+}
+
+.advice-list {
+	margin: 0 -15px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.advice__item {
+	margin-bottom: 47px;
+	width: 100%;
+	padding: 0 15px;
+}
+
+.item-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FFFFFF;
+}
+
+.advice__text-box {
+	padding: 30px;
+	text-align:left;
+}
+
+.advice__box-pic  img {	
+	object-fit:cover;
+	height: 138px;
+	width: 100% ;
+}
+
+.advice__box-title {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+
+.advice__box-description {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #737373;
+	padding-top: 15px;
+
+}
+
+@media screen and (min-width : 768px) {
+	.choose-list__parent {
+		width: 50%;
+	}
+	.advice__item {
+		width: 50%;
+	}	
+} 
+
+@media screen and (min-width : 992px) {
+	.box-title {
+		font-size: 40px;
+	}
+	.practice-advice__title {
+		font-size: 40px;
+	}
+	.choose-list__parent {
+		width: 25%;
+	}
+	.advice__item {
+		width: 25%;
+	}	
+
+	
+}
